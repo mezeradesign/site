@@ -1,0 +1,222 @@
+
+/***** BASE STYLES *****/
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/**** HEADER IMAGE - SAME FOR ALL PAGES *****/
+header {
+  background-image: url("./images/roman-serdyuk-339654-unsplash copy.jpg");
+  background-position: left;
+  background-size: cover;
+}
+.blue-line {
+  width: 100%;
+}
+
+/***** LOGO & NAV BAR - SAME FOR EVERY PAGE *****/
+#logo {
+  height: 55px;
+  width: 55px;
+  padding: 5px;
+}
+
+#logo:hover {
+  background-color: #1c75a3
+}
+
+.navbar a {
+  color: #ffffff;
+  padding-right: 35px;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #1c75a3
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 200;
+}
+.triangle {
+  height: 20px;
+  width: 20px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+/***** PAGE NAME - TITLE PAGE WILL SHOW THE SAME FOR EVERY PAGE *****/
+
+header h1 {
+  padding-top: 30px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 162px;
+  line-height: 90%;
+  letter-spacing: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.Me {
+  letter-spacing: -6px;
+}
+.z {
+  padding-left: 8px;
+}
+.era {
+  letter-spacing:-2px;
+}
+.design {
+  letter-spacing: 16px;
+}
+
+/***** MAIN PAGE IMAGES *****/
+.farright  {
+  padding-right: 20px;
+}
+.bottomrow {
+margin-bottom: 20px;
+}
+
+#images .column img {
+  height: 300px;
+  width: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/***** MAIN PAGE - TEXT DETAILS *****/
+
+#details {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#details > p {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 300;
+  margin-left: 30px;
+  padding-top: -5px;
+  /* font-size: calc(12px + .5vw); */
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+/***** EACH PAGE - EXPANDED DETAILS TEXT *****/
+
+.details-exp {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.details-exp p {
+  color: #947f74;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+.details-exp .title {
+  color: #947f74;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+/***** ABOUT PAGE *****/
+#about h1 {
+  padding-left: 25px;
+}
+
+/***** CONTACT FOOTER - SAME FOR EVERY PAGE *****/
+
+footer {
+  background-image: url("./images/roman-serdyuk-339654-unsplash copy.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 170px;
+}
+#contact {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+#contact .phone-email {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: calc(13px + .5vw);
+  text-transform: uppercase;
+  padding-left: 10px;
+  line-height: 35px;
+  letter-spacing: 3px;
+}
+
+#contact a:hover {
+  color: #1c76a3;
+}
+
+.social-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/***** CONTACT FORM *****/
+
+.contact-form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-control {
+  width: 400px;
+  font-size: 15px;
+  margin-bottom: 16px;
+  border-color: #947f74;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #1c76a3;
+  border-color: transparent;
+  color: #ffffff;
+  font-size: 18px;
+  height: 50px;
+  margin-bottom: 80px;
+}
+
+form .submit:hover {
+  background-color: #124c69;
+}
